@@ -1,0 +1,30 @@
+
+==============================
+       LIBERAR MEMORIA 
+==============================
+
+//estos comandos son para leberar memoria
+du -sh /var/cache/apt/archives
+sudo apt-get clean
+
+//este comando es para eliminar dependencias que ya no se estan utilizadndo
+sudo apt-get autoremove
+0980013621
+
+==============================
+        matar procesos 
+==============================
+//para matar el proceso
+kill -9 “PID del proceso”
+link: https://www.ochobitshacenunbyte.com/2018/06/14/buscar-y-matar-procesos-en-linux/
+
+//para ver los procesos
+ps aux
+link: http://persoal.citius.usc.es/tf.pena/ASR/Tema_3html/node2.html
+
+==============================
+       		 SHELL 
+==============================
+ls -al // mostrar archivos ocultos; podria agregarse -s -a para que sea mas legible
+rm -rfv /mi-directorio //para eliminar directorio con archivos dentro; sino intenta sudo
+

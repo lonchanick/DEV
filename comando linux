@@ -27,4 +27,4 @@ link: http://persoal.citius.usc.es/tf.pena/ASR/Tema_3html/node2.html
 ==============================
 ls -al // mostrar archivos ocultos; podria agregarse -s -a para que sea mas legible
 rm -rfv /mi-directorio //para eliminar directorio con archivos dentro; sino intenta sudo
-
+mv old_name new_name //para renombrar un directorio o carpeta

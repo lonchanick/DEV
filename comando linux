@@ -3,7 +3,7 @@
        LIBERAR MEMORIA 
 ==============================
 
-//estos comandos son para leberar memoria
+//estos comandos son para liberar memoria
 du -sh /var/cache/apt/archives
 sudo apt-get clean
 
@@ -23,8 +23,18 @@ ps aux
 link: http://persoal.citius.usc.es/tf.pena/ASR/Tema_3html/node2.html
 
 ==============================
-       		 SHELL 
+       VARIOS - SHELL 
 ==============================
 ls -al // mostrar archivos ocultos; podria agregarse -s -a para que sea mas legible
 rm -rfv /mi-directorio //para eliminar directorio con archivos dentro; sino intenta sudo
 mv old_name new_name //para renombrar un directorio o carpeta
+sudo dpkg -i package_file.deb //para jecutar paquetes .deb
+=====================================
+Solucionar error de dependecias rotas
+=====================================
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt-get update	//eliminar paquetes huerfanos y actualiza la memoria de gestion de paquete
+
+sudo apt-get -f install //soluciona los errores de dependencia
+apt --fix-broken install //soluciona los errores de dependencia 

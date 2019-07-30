@@ -37,4 +37,9 @@ sudo apt-get autoclean
 sudo apt-get update	//eliminar paquetes huerfanos y actualiza la memoria de gestion de paquete
 
 sudo apt-get -f install //soluciona los errores de dependencia
-apt --fix-broken install //soluciona los errores de dependencia 
+apt --fix-broken install //soluciona los errores de dependencia
+
+=====================================
+como cambiar el nombre del pc linux
+=====================================
+https://www.cyberciti.biz/faq/ubuntu-change-hostname-command/

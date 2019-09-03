@@ -1,3 +1,7 @@
+==
+SO
+==
+lsb_release -a //muestra la version del sistema operativo
 
 ==============================
        LIBERAR MEMORIA 

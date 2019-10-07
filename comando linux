@@ -36,7 +36,7 @@ sudo dpkg -i package_file.deb //para jecutar paquetes .deb
 =====================================
 Solucionar error de dependecias rotas
 =====================================
-sudo apt-get autoremove
+sudo apt-get autoremove && sudo apt-get autoclean && sudo apt-get update
 sudo apt-get autoclean
 sudo apt-get update	//eliminar paquetes huerfanos y actualiza la memoria de gestion de paquete
 
@@ -47,3 +47,8 @@ apt --fix-broken install //soluciona los errores de dependencia
 como cambiar el nombre del pc linux
 =====================================
 https://www.cyberciti.biz/faq/ubuntu-change-hostname-command/
+
+=====================================
+ELIMINAR REPOSITORIOS EXTERNOS PPA's
+=====================================
+https://itsfoss.com/how-to-remove-or-delete-ppas-quick-tip/

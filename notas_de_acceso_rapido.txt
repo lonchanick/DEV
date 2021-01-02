@@ -1,0 +1,19 @@
+AIM Certificado Excel - ultima version
+VOCABULARY: #1
+nopath ->quitar rutha de archivos en cmd
+BOOK MARK LAS PAGINAS DE
+  CHRIS FINXTER Y DAN AT REAL PYTHON
+
+TECLADO
+lista: xinput list
+disable: xinput float 15
+enable: xinput reattach 15 3
+
+critical scrutiny or self-doubt
+
+
+
+===================================
+DJANGO STUFFS
+===================================
+-> check regular expressions
